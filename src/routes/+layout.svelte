@@ -1,16 +1,24 @@
-<script>
-    import "../app.css";
-  </script>
-  
-  <header>
-    <h1>Meine Svelte Seite</h1>
-  </header>
-  
-  <main>
-    <slot />
-  </main>
-  
-  <footer>
-    <p>  Meine Erste Svelte Website, du bist Willkommen und hab sehr viel spaß!!!!!!</p>
-  </footer>
-  
+<script>  
+  // Imports the CSS file for global styling
+  // IS from ajsi
+  // Is pretty 
+  import "../app.css";
+</script>
+
+<header>
+  <!-- Website heading -->
+    <!-- really cool -->
+      <!-- woowoooo -->
+  <h1>My Svelte Page</h1>
+</header>
+
+<main>
+  <!-- Slot for dynamic content inserted by a parent component -->
+  <!-- this took me reqlly log-->
+  <slot />
+</main>
+
+<footer>
+  <!-- Footer with a welcome message -->
+  <p>My first Svelte website, you are welcome and have lots of fun!!!!!!</p>
+</footer>

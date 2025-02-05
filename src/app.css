@@ -1,52 +1,51 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background: #ffe4ec; /* Sanftes Rosa */
-    color: #880e4f; /* Dunkles Pink */
-  }
-  
-  header, footer {
-    background: #ff4f8b; /* Kräftiges Pink */
-    color: white;
-    padding: 1rem;
-  }
-  
-  main {
-    padding: 2rem;
-  }
-  
-  h1 {
-    color: #c2185b; /* Mittelstarkes Pink */
-  }
-  
-  input {
-    margin-top: 1rem;
-    padding: 0.5rem;
-    font-size: 1rem;
-    border: 1px solid #ff4f8b;
-    border-radius: 5px;
-    outline: none;
-  }
-  
-  button {
-    margin-top: 1rem;
-    padding: 0.5rem 1rem;
-    font-size: 1rem;
-    background: #ff4f8b;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background: #d81b60;
-  }
-  
-  footer {
-    margin-top: 2rem;
-    font-size: 0.9rem;
-  }
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #ffe4ec; /* Soft pink background */
+  color: #880e4f; /* Dark pink text color */
+}
+
+header, footer {
+  background: #ff4f8b; /* Vibrant pink */
+  color: white;
+  padding: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+h1 {
+  color: #c2185b; /* Medium pink */
+}
+
+input {
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #ff4f8b;
+  border-radius: 5px;
+  outline: none;
+}
+
+button {
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  background: #ff4f8b; /* Button background color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+button:hover {
+  background: #d81b60; /* Darker pink when hovering */
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
