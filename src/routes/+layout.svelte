@@ -14,7 +14,7 @@
 
 <main>
   <!-- Slot for dynamic content inserted by a parent component -->
-  <!-- this took me reqlly log-->
+  <!-- this took me reqlly long -->
   <slot />
 </main>
 
